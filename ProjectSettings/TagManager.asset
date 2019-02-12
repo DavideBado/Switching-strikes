@@ -8,6 +8,7 @@ TagManager:
   - Red
   - PlayerBlue
   - PlayerRed
+  - Enemy
   layers:
   - Default
   - TransparentFX
