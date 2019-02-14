@@ -109,6 +109,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _EnemyType: 0
+  EnemySpeed: 1
+  GameManager: {fileID: 0}
 --- !u!54 &54175230014676708
 Rigidbody:
   m_ObjectHideFlags: 0

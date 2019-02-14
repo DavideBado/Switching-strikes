@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Limits : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other) // Controlla le collisioni
     {
-        if(other.tag == "Player")
-        {
-            other.GetComponent<Player>().OnLimit = true;
+        if(other.tag == "Player") // Se a collidere è il giocatore
+        {            
+            other.GetComponent<Player>().GoHome(); // Rimanda a casa il giocatore, cambiagli natura e avvisa che non si sta più muovendo
         }
     }
 }
